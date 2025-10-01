@@ -30,26 +30,23 @@ The app demonstrates **multi-screen navigation**, **state management with Provid
    git clone https://github.com/Sadexx79/Weatheree.git
    cd weatheree
 
-2.Install dependencies
+2. **Install dependencies**
+   ```bash
+    flutter pub get
 
-flutter pub get
-
-3.Obtain an API key
+3.**Obtain an API key**
 
 -Register at OpenWeatherMap
 
 -Copy your API key.
 
-4.Add API key
+4.**Add API key**
 
 -Open lib/main.dart or lib/services/weather_service.dart.
 
 -Replace 'YOUR_API_KEY' with your actual key.
 
-5-Run the app
+5-**Run the app**
+```bash
+   flutter run
 
-flutter run
-
-6.Run test
-
-flutter test
